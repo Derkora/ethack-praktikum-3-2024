@@ -1,0 +1,20 @@
+# Nmap 7.94SVN scan initiated Wed May 29 02:42:07 2024 as: nmap -Pn -T4 -A -v -oN nmapip.log 167.172.75.216
+Nmap scan report for 167.172.75.216
+Host is up (0.028s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+21/tcp   open  tcpwrapped
+22/tcp   open  ssh        OpenSSH 9.6p1 Ubuntu 3ubuntu13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 85:f9:92:66:eb:75:e1:63:af:85:89:79:e4:46:c1:72 (ECDSA)
+|_  256 68:8c:63:70:7f:85:64:5a:90:00:47:1b:19:74:d4:0c (ED25519)
+80/tcp   open  http       Node.js (Express middleware)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Home - Jay's Bank
+1723/tcp open  tcpwrapped
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 29 02:42:28 2024 -- 1 IP address (1 host up) scanned in 20.55 seconds

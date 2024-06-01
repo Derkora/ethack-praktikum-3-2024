@@ -1,0 +1,8 @@
+/Login               [32m (Status: 200)[0m [Size: 905]
+/css                 [36m (Status: 301)[0m [Size: 173][34m [--> /css/][0m
+/dashboard           [36m (Status: 302)[0m [Size: 28][34m [--> /login][0m
+/js                  [36m (Status: 301)[0m [Size: 171][34m [--> /js/][0m
+/login               [32m (Status: 200)[0m [Size: 905]
+/logout              [36m (Status: 302)[0m [Size: 28][34m [--> /login][0m
+/profile             [36m (Status: 302)[0m [Size: 28][34m [--> /login][0m
+/register            [32m (Status: 200)[0m [Size: 1399]
